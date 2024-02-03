@@ -1,0 +1,39 @@
+{%extends 'main/layout.html'%}
+{% load static %}
+{%block title%}{{subject}}{%endblock%}
+
+{%block body%}
+<br>
+<br>
+<br>
+
+<div class="mx-auto p-2" style="width: 1000px;">
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="text-sm-center">
+{% for questions in question%}
+{%if questions.paper == 'Paper 1'%}
+    {{questions}}<hr><br>
+    {%for answers in questions.answer_set.all%}
+    {% if answers.correct%}
+        <div class="alert alert-dark">
+        {{answers.answer}}
+    </div>
+    {%elif not answers.correct %}
+    <div class="alert alert-danger">
+        {{answers.answer}}
+    </div>
+
+    {%endif%}
+ 
+    {%endfor%} 
+    {%endif%}
+
+    {%endfor%}  
+      <form action="{% url 'ans' year.id%}" method="post" >
+        {% csrf_token %}
+        <input class="btn btn-primary" type="submit" name="Back To Home" value="Back To Home">
+    </form>
+    </div>
+</div>
+</div>
+{%endblock%}

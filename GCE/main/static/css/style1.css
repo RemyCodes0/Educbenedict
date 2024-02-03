@@ -1,0 +1,157 @@
+:root{
+    --bg-colour: rgb(59, 60, 63);
+    --num: 75;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #acacac;
+    margin: 0;
+}
+
+.container{
+    background-color: var(--bg-colour);
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .card{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card .circularBar{
+    width: 170px;
+    height: 170px;
+}
+
+.container .card .circularBar svg{
+    width: 100%;
+    height: 100%;
+    transform: rotate(270deg);
+}
+
+.container .card .circularBar svg circle{
+    fill: transparent;
+    stroke-width: 3px;
+    stroke: black;
+}
+
+.container .card .circularBar svg circle:nth-child(2)
+{
+    stroke: var(--clr);
+    stroke-dasharray: 524;
+    stroke-dashoffset: calc(524 - (524 * 2 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    transform: rotate(calc(3.6deg * var(--num)));
+    animation: animateDot 2s linear  forwards ; 
+}
+
+@keyframes animateDot{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(calc(3.6deg * 2 * var(--num)));
+    }
+}
+
+.dot::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--clr);
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+
+}
+
+.number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.number h2{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.number h2 span{
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
+.number p{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.try-again-button{
+    width: 10em;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f1f1f1;
+    color: #303030;
+}
+
+.try-again-button:hover{
+    background-color: #cacaca;
+}

@@ -1,0 +1,10 @@
+{% extends "main/layout.html"%}
+
+{%block title%} Paper {%endblock%}
+{%block body%}
+
+<a href="{%url 'paper1' year.id%}">paper 1</a>
+<a href="{%url 'paper2' year.id%}">paper 2</a>
+<a href="{%url 'paper3' year.id%}">paper 3</a>
+{%endblock%}
+

@@ -1,0 +1,22 @@
+{%extends 'main/layout.html'%}
+
+{%block title%}{{subject}}{%endblock%}
+
+{%block body%}
+<div class="mx-auto p-2" style="width: 1000px;">
+  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+      
+ {%for questions in question%}
+<form action="{%url 'paper2' subject.id%}" method="post">
+    {% csrf_token %}
+        {%if questions.paper == 'Paper 2'%}
+        {{questions.question}}<br>   
+          <input  type="submit" value="{{questions.question}}" name="question">
+          {%endif%}
+  </form>
+   {%endfor%} 
+     </div>
+  </div>
+</div>
+  
+{%endblock%}

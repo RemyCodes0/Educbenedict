@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: url('neon\ landscape.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    width: 500px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, .5);
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container .input-form input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    margin: 5px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+}
+
+.input-form{
+    padding: 10px;
+}
+
+.input-form p{
+    margin: 0 20px;
+}
+
+.input-form input::placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+
+.container .btn{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin: 10px;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.container .register{
+    align-self: center;
+}
+
+.register a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+/*-----------------NAVBAR----------------*/
+header {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, .5);
+}
+
+nav ul{ 
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav li{
+    height: 50px;
+    border-radius: inherit;
+}
+
+nav li a{
+    text-decoration: none;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: inherit;
+    font-weight: bold;
+}
+
+nav li:first-child:hover a{
+    color: seagreen;
+
+}
+
+nav a:hover{
+    color: sandybrown;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+/*To be modified when better icons are found*/
+nav .icon{
+    height: inherit;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: inherit;
+}
+
+.icon:hover{
+    background-color: #f0f0f0;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, .2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: inherit;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover{
+    color: sandybrown;
+}
+
+/*Media (responsiveness)*/
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+

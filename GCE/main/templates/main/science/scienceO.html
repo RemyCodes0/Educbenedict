@@ -1,0 +1,12 @@
+{%extends 'main/layout.html'%}
+
+{% block title%}Science{%endblock%}
+{%block body%}
+This is the science section
+    <h1>Choose a subject</h1>
+    {%for subjects in subject%}
+    {% if subjects.science == True and subjects.ordinary == True%}
+    <a href="{%url 'year' subjects.id%}">{{subjects}}</a><br>
+    {%endif%}
+    {%endfor%}
+{%endblock%}

@@ -1,0 +1,21 @@
+{%extends 'main/layout.html'%}
+
+{%block title%}{{subject}}{%endblock%}
+
+{%block body%} 
+
+<form action="{%url 'question' subject.id%}" method="post">
+ 
+    {% csrf_token %} 
+    {%for questions in question%}<hr>
+        {%if questions.paper == 'Paper 3'%}
+        {{questions.question}}<br> <hr>
+            {%for answers in questions.answer_set.all%}
+            <input type="radio" id="{{questions.id}}{{answers.id}}" name ="{{questions.id}}" value="{{answers.id}}">
+            <label for="{{questions.id}}{{answers.id}}">{{answers.answer}}</label><br>
+            {%endfor%} 
+            {%endif%}
+            {%endfor%}
+          <input type="submit" name="submit" value="submit">
+  </form>
+ {%endblock%}

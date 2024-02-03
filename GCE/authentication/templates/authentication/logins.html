@@ -1,0 +1,21 @@
+{% extends "main/layout.html"%}
+
+{%block title%} Login {%endblock%}
+{%block body%}
+
+<div class="container" name="Login Panel">
+    <h1>Login</h1>
+    <form action="{%url 'authentication:logins'%}" method="post">
+        {% csrf_token %}
+        <div class="input-form">
+        <input id="username" placeholder="Username" name="username" type="text">
+        </div>
+        <div class="input-form">
+        <input type="password" placeholder="Password" name="password">
+        </div>
+        <input type="submit" class="btn" value="Login">
+    </form>
+    <h3><a href="{%url 'authentication:signup'%}">Register</a> to create an account</h3>
+</body>
+</html>
+{% endblock %}

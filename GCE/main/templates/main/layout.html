@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    {%block style%}{%endblock%}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>{%block title%} {%endblock%}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li><div class="icon" onclick=hideSideBar()>X</div></li>
+                <li><a href="{% url 'index'%}">Home</a></li>
+                <li><a href="{% url 'ordinary'%}">O-Level</a></li>
+                <li><a href="{% url 'advanced'%}">A-Level</a></li>
+                <li><a href="{% url 'bac'%}">Bacc</a></li>
+                <li><a href="{% url 'about'%}">About </a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'authentication:logouts'%}">Logout</a></li>
+                {%else%}
+                <li><a href="{% url 'authentication:signup'%}">Register</a></li>
+                <li><a href="{% url 'authentication:logins'%}">Login</a></li>
+                {% endif %}
+            </ul>
+    
+            <ul class="navbar">
+                <li><a href="{% url 'index'%}">Home</a></li>
+                <li class="hideOnMobile">
+                    <div class="dropdown">
+                        <a href="{% url 'ordinary'%}" class="dropbtn">O-Level</a>
+                        <div class="dropdown-content">
+                          <a href="{% url 'scienceO'%}">Science</a>
+                          <a href="{% url 'artO'%}">Art</a>
+                        
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="dropdown">
+                        <a href="{% url 'advanced'%}" class="dropbtn">A-Level</a>
+                        <div class="dropdown-content">
+                          <a href="{% url 'scienceA'%}">Science</a>
+                          <a href="{% url 'artA'%}">Art</a>
+                          
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile"><a href="{% url 'bac'%}">Bacc</a></li>
+                <li class="hideOnMobile"><a href="{% url 'about'%}">About </a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'authentication:logouts'%}">Logout</a></li>
+                {% else %}
+                <li class="hideOnMobile"><a href="{% url 'authentication:signup'%}">Register</a></li>
+                <li class="hideOnMobile"><a href="{% url 'authentication:logins'%}">Login</a></li>
+                {%endif%}
+                <li><div class="icon menu-button" onclick=showSideBar()>@</div></li>
+            </ul>
+        </nav>  
+    </header>
+    {%block body%} {%endblock%}
+</body>
+<script src="{% static 'js/script.js' %}"></script>
+</html>

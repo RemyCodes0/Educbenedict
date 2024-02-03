@@ -1,0 +1,2072 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-12-25T07:01:08.876Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Biology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-12-25T07:01:28.741Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Biology 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-12-25T07:02:14.324Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "what is a cell",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"small things\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"life in a sac\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"fundamentals\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"None\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-12-25T07:13:51.960Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Physics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-12-25T07:13:57.123Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Chemistry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-12-25T07:14:08.759Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Further Mathematics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-12-25T07:14:37.840Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Mathematics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-12-25T07:14:56.825Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-12-25T07:15:02.797Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-12-25T07:15:09.772Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-12-25T07:15:21.794Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Physics 2021",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-12-25T07:15:28.538Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Physics 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-12-25T07:15:38.527Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Physics 2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-12-25T07:16:01.576Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Biology 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-12-25T07:16:13.605Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Biology 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-12-25T07:16:35.160Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Biology 2021",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-12-25T07:16:35.333Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Biology 2022",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-12-25T07:16:35.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Biology 2023",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-12-25T07:16:50.098Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Biology 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-12-25T07:17:00.338Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Biology 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-12-25T07:17:09.703Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Biology 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-12-25T07:17:18.603Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-12-25T07:17:27.554Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-12-25T07:17:48.883Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Further mathematics 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-12-25T07:18:03.881Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Further Mathematics 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-12-25T07:18:14.137Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Mathematics 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-12-25T07:18:27.874Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Mathematics 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-12-25T07:18:40.143Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Chemistry 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-12-25T07:18:59.806Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Chemistry 2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-12-25T07:21:03.694Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "what is matter?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"mass and space\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"good\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"bad\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"somehow\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-12-25T07:21:34.260Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "phyics is difficult",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"yes\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"no\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"maybe\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"humm\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-12-25T07:22:20.612Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "who is your teacher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"mr ireze\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"mr muh\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"hum\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"i don.t know\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-12-25T07:23:59.442Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "what is a cell",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"small\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"mr muh\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"maybe\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"None\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-12-25T07:24:28.953Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "choose the correct",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"mass and space\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"good\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"hum\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"i don.t know\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-12-25T07:25:04.743Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Biology is the study of",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"yes\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"mr muh\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"fundamentals\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"humm\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-12-25T07:25:35.796Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "what is a solution",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"small\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"life in a sac\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"maybe\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"somehow\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-12-25T07:25:55.196Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "1 + 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"2\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"3\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"4\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"5\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-12-25T07:26:18.572Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "0=0",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"true\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"false\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"4\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"i don.t know\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-12-25T07:32:54.372Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Biology is the study of",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"answer\", \"object\": \"fundamentals\", \"fields\": [\"Correct\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-12-25T07:34:38.594Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "choose the correct",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-12-25T07:34:46.730Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "what is a cell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"answer\", \"object\": \"mr muh\", \"fields\": [\"Correct\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-12-25T07:34:54.420Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "who is your teacher",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-12-25T07:35:00.759Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "phyics is difficult",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-12-25T07:35:10.773Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "what is matter?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"answer\", \"object\": \"mass and space\", \"fields\": [\"Correct\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-12-25T10:30:00.974Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "what is a cell",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-12-25T10:30:27.709Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "what is my name",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"tuyi\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"shime\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"hir\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"wa\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-12-25T10:31:54.960Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "what is my name",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-12-25T18:09:12.592Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "what is my name",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-12-25T18:09:54.342Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Biotechnology is",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"answer\", \"object\": \"The study of biotech\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"mr muh\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"bad\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"wa\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-12-26T06:08:57.140Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Mathematics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Science\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-12-26T06:08:59.477Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Further Mathematics",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-12-26T06:09:04.342Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Further Mathematics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Science\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-12-26T06:09:07.485Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Chemistry",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Science\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-12-26T06:09:11.220Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Physics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Science\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-12-26T06:09:13.458Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Chemistry",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-12-26T06:09:16.941Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Biology",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Science\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-12-26T06:11:12.273Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Computer Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-12-26T06:11:22.562Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ICT",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-12-26T06:12:42.102Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Economics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-12-26T06:13:01.471Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Religious studies",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-12-26T06:13:11.239Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Litterature",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-12-26T06:13:39.617Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "English",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-12-26T06:14:00.580Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Mathematics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Art\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-12-26T06:14:11.128Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-12-26T06:14:15.852Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ICT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Art\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add series",
+    "content_type": 7,
+    "codename": "add_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change series",
+    "content_type": 7,
+    "codename": "change_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete series",
+    "content_type": 7,
+    "codename": "delete_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view series",
+    "content_type": 7,
+    "codename": "view_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add answer",
+    "content_type": 8,
+    "codename": "add_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change answer",
+    "content_type": 8,
+    "codename": "change_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete answer",
+    "content_type": 8,
+    "codename": "delete_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view answer",
+    "content_type": 8,
+    "codename": "view_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 9,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 9,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 9,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view question",
+    "content_type": 9,
+    "codename": "view_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add year",
+    "content_type": 10,
+    "codename": "add_year"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change year",
+    "content_type": 10,
+    "codename": "change_year"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete year",
+    "content_type": 10,
+    "codename": "delete_year"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view year",
+    "content_type": 10,
+    "codename": "view_year"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add subjects_gce",
+    "content_type": 11,
+    "codename": "add_subjects_gce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change subjects_gce",
+    "content_type": 11,
+    "codename": "change_subjects_gce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete subjects_gce",
+    "content_type": 11,
+    "codename": "delete_subjects_gce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view subjects_gce",
+    "content_type": 11,
+    "codename": "view_subjects_gce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add subject",
+    "content_type": 11,
+    "codename": "add_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change subject",
+    "content_type": 11,
+    "codename": "change_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete subject",
+    "content_type": 11,
+    "codename": "delete_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view subject",
+    "content_type": 11,
+    "codename": "view_subject"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$uW2838kDJ9WvsFwxjbQN3s$oPXtHVR59kjtUNWgNq+/GN6nw49+OD+9rFr+yPlIsL8=",
+    "last_login": "2023-12-25T06:58:31.963Z",
+    "is_superuser": true,
+    "username": "Tuyishime",
+    "first_name": "",
+    "last_name": "",
+    "email": "tuyishimechristophe84@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-25T06:58:12.452Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "main",
+    "model": "series"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "main",
+    "model": "answer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "main",
+    "model": "question"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "main",
+    "model": "year"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "main",
+    "model": "subject"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a6vnrmevxb70pf0uvm3ekavt1awyrjqn",
+  "fields": {
+    "session_data": ".eJxV0UlugzAYBeC7eB0h_sExsOw-Z0DGNiUtIhKDuohy94KEX9rdk4f3eXia1m_r0G5Lmtt7NI0hc_k71vnwnaZjIn756fNRhMe0zveuOJYU5-xS3B4xjR_n2n8Fg1-GfXfvA5XXGGxPpb06SdH2vu-5Z-t8clI60rIOTqvauaDKVNaV81F9J3XHaS9d0pjCmmLrp-UnzYtpnvtpm2kbx4vhHCQHzcEet6r2gmsecTlUOdQ5UImEbtrLjdq9gdBOqCeLBIAgEAiCwTD4fX5cgGEwDIbBMBgGw2AYAkNgyPuRYAgMgSEwBIbAEBgKQ2EoDH3_BAyFoTAUhsJQGPY0Xq9fgH7Hvw:1rI2U7:fNeJeAq21cPAt0xW_x-sNaHn-CltFkfKxslyZO-II7c",
+    "expire_date": "2024-01-09T08:08:19.261Z"
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Biology",
+    "science": true,
+    "art": false
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Physics",
+    "science": true,
+    "art": false
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Chemistry",
+    "science": true,
+    "art": false
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Further Mathematics",
+    "science": true,
+    "art": false
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Mathematics",
+    "science": true,
+    "art": true
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Computer Science",
+    "science": true,
+    "art": false
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 7,
+  "fields": {
+    "title": "ICT",
+    "science": true,
+    "art": true
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 8,
+  "fields": {
+    "title": "Economics",
+    "science": false,
+    "art": true
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 9,
+  "fields": {
+    "title": "Religious studies",
+    "science": false,
+    "art": true
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 10,
+  "fields": {
+    "title": "Litterature",
+    "science": false,
+    "art": true
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 11,
+  "fields": {
+    "title": "English",
+    "science": false,
+    "art": true
+  }
+},
+{
+  "model": "main.year",
+  "pk": 2,
+  "fields": {
+    "subject": 2,
+    "title": "Physics 2023"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 3,
+  "fields": {
+    "subject": 2,
+    "title": "Physics 2022"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 4,
+  "fields": {
+    "subject": 2,
+    "title": "Physics 2021"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 7,
+  "fields": {
+    "subject": 1,
+    "title": "Biology 2023"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 8,
+  "fields": {
+    "subject": 1,
+    "title": "Biology 2022"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 9,
+  "fields": {
+    "subject": 1,
+    "title": "Biology 2021"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 10,
+  "fields": {
+    "subject": 3,
+    "title": "Chemistry 2023"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 11,
+  "fields": {
+    "subject": 3,
+    "title": "Chemistry 2022"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 12,
+  "fields": {
+    "subject": 4,
+    "title": "Further mathematics 2023"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 13,
+  "fields": {
+    "subject": 4,
+    "title": "Further Mathematics 2022"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 14,
+  "fields": {
+    "subject": 5,
+    "title": "Mathematics 2023"
+  }
+},
+{
+  "model": "main.year",
+  "pk": 15,
+  "fields": {
+    "subject": 5,
+    "title": "Mathematics 2022"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 2,
+  "fields": {
+    "subject": 2,
+    "question": "what is matter?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 3,
+  "fields": {
+    "subject": 3,
+    "question": "phyics is difficult"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 4,
+  "fields": {
+    "subject": 4,
+    "question": "who is your teacher"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 5,
+  "fields": {
+    "subject": 7,
+    "question": "what is a cell"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 6,
+  "fields": {
+    "subject": 8,
+    "question": "choose the correct"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 7,
+  "fields": {
+    "subject": 9,
+    "question": "Biology is the study of"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 8,
+  "fields": {
+    "subject": 10,
+    "question": "what is a solution"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 9,
+  "fields": {
+    "subject": 12,
+    "question": "1 + 1"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 10,
+  "fields": {
+    "subject": 14,
+    "question": "0=0"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 11,
+  "fields": {
+    "subject": 7,
+    "question": "what is my name"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 12,
+  "fields": {
+    "subject": 7,
+    "question": "Biotechnology is"
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "answer": "mass and space",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 6,
+  "fields": {
+    "question": 2,
+    "answer": "good",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 7,
+  "fields": {
+    "question": 2,
+    "answer": "bad",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 8,
+  "fields": {
+    "question": 2,
+    "answer": "somehow",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "answer": "yes",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 10,
+  "fields": {
+    "question": 3,
+    "answer": "no",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 11,
+  "fields": {
+    "question": 3,
+    "answer": "maybe",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 12,
+  "fields": {
+    "question": 3,
+    "answer": "humm",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 13,
+  "fields": {
+    "question": 4,
+    "answer": "mr ireze",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 14,
+  "fields": {
+    "question": 4,
+    "answer": "mr muh",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 15,
+  "fields": {
+    "question": 4,
+    "answer": "hum",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 16,
+  "fields": {
+    "question": 4,
+    "answer": "i don.t know",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 17,
+  "fields": {
+    "question": 5,
+    "answer": "small",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 18,
+  "fields": {
+    "question": 5,
+    "answer": "mr muh",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 19,
+  "fields": {
+    "question": 5,
+    "answer": "maybe",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 20,
+  "fields": {
+    "question": 5,
+    "answer": "None",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 21,
+  "fields": {
+    "question": 6,
+    "answer": "mass and space",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 22,
+  "fields": {
+    "question": 6,
+    "answer": "good",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 23,
+  "fields": {
+    "question": 6,
+    "answer": "hum",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 24,
+  "fields": {
+    "question": 6,
+    "answer": "i don.t know",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 25,
+  "fields": {
+    "question": 7,
+    "answer": "yes",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 26,
+  "fields": {
+    "question": 7,
+    "answer": "mr muh",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 27,
+  "fields": {
+    "question": 7,
+    "answer": "fundamentals",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 28,
+  "fields": {
+    "question": 7,
+    "answer": "humm",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 29,
+  "fields": {
+    "question": 8,
+    "answer": "small",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 30,
+  "fields": {
+    "question": 8,
+    "answer": "life in a sac",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 31,
+  "fields": {
+    "question": 8,
+    "answer": "maybe",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 32,
+  "fields": {
+    "question": 8,
+    "answer": "somehow",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 33,
+  "fields": {
+    "question": 9,
+    "answer": "2",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 34,
+  "fields": {
+    "question": 9,
+    "answer": "3",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 35,
+  "fields": {
+    "question": 9,
+    "answer": "4",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 36,
+  "fields": {
+    "question": 9,
+    "answer": "5",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 37,
+  "fields": {
+    "question": 10,
+    "answer": "true",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 38,
+  "fields": {
+    "question": 10,
+    "answer": "false",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 39,
+  "fields": {
+    "question": 10,
+    "answer": "4",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 40,
+  "fields": {
+    "question": 10,
+    "answer": "i don.t know",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 41,
+  "fields": {
+    "question": 11,
+    "answer": "tuyi",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 42,
+  "fields": {
+    "question": 11,
+    "answer": "shime",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 43,
+  "fields": {
+    "question": 11,
+    "answer": "hir",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 44,
+  "fields": {
+    "question": 11,
+    "answer": "wa",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 45,
+  "fields": {
+    "question": 12,
+    "answer": "The study of biotech",
+    "correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 46,
+  "fields": {
+    "question": 12,
+    "answer": "mr muh",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 47,
+  "fields": {
+    "question": 12,
+    "answer": "bad",
+    "correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 48,
+  "fields": {
+    "question": 12,
+    "answer": "wa",
+    "correct": false
+  }
+}
+]

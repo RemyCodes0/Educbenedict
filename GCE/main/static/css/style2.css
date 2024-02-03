@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: 
+      linear-gradient(135deg,#0000 20.5%,#ffddd2 0 29.5%,#0000 0) 0 16px,
+      linear-gradient( 45deg,#0000 8%,#ffddd2 0 17%, #0000 0 58%) 32px 0,
+      linear-gradient(135deg,#0000 8%,#ffddd2 0 17%, #0000 0 58%,#ffddd2 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,#ffddd2 0 17%, #0000 0 58%,#ffddd2 0 67%,#0000 0 83%,#ffddd2 0 92%,#0000 0),
+      #83c5be;
+background-size: 64px 64px;
+
+
+
+}
+
+.logout-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    background-color: #ffddd2;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.logout-container button{
+    width: 25%;
+    height: 8%;
+    position: relative;
+    bottom: -30%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8baa4;
+    font-size: 1.2em;
+    transition: .2s ease-in;
+}
+
+.logout-container button:hover{
+    border: white 2px solid;
+    width: 28%;
+    height: 12%;
+    font-size: 1.3em;
+    transition: .2s ease-in;
+}
+
+.logout-container h1{
+    font-size: 2em;
+    text-align: center;
+}

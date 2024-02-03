@@ -1,0 +1,35 @@
+{%extends 'main/layout.html'%}
+
+{%block title%}{{subject}}{%endblock%}
+
+{%block body%} 
+<br>
+<br>
+<br>
+<br>
+
+<div class="mx-auto p-2" style="width: 1000px;">
+<form action="{%url 'paper1' subject.id%}" method="post">
+    {% csrf_token %} 
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="text-sm-center">
+            <h2>{{subject}}</h2>
+        </div>
+            <hr>
+    {%for questions in question%}<hr>
+    
+        {%if questions.paper == 'Paper 1'%}
+        {{questions.question}}<br>
+        {%for answers in questions.answer_set.all%}
+                <input type="radio" class="form-check-input" id="{{questions.id}}{{answers.id}}" name ="{{questions.id}}" value="{{answers.id}}">
+                <label for="{{questions.id}}{{answers.id}}">{{answers.answer}}</label><br>
+        {%endfor%} 
+        {%endif%}
+ 
+    {%endfor%}
+          <input class="btn btn-primary" type="submit" name="submit" value="submit"> 
+        
+  </form>
+</div>
+</div>
+ {%endblock%}

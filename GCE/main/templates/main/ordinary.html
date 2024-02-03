@@ -1,0 +1,9 @@
+{% extends "main/layout.html"%}
+
+{%block title%} Ordinary Level {%endblock%}
+{%block body%}
+    <div class="container">
+    <button  class="btn"><a href="{% url 'scienceO'%}"><h3>Science</h3></a></button>
+    <button  class="btn"><a href="{% url 'artO'%}">Art</a></button>
+    </div>
+{%endblock%}

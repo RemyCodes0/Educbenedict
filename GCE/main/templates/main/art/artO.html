@@ -1,0 +1,9 @@
+{%extends 'main/layout.html'%}
+{%block title%}Art{%endblock%}
+{%block body%}
+    {%for subjects in subject%}
+        {%if subjects.art == True and subjects.ordinary == True%}
+        <a href="{%url 'year' subjects.id%}">{{subjects}}</a><br>
+        {%endif%}
+    {%endfor%}
+{%endblock%}

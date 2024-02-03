@@ -1,0 +1,27 @@
+{%extends 'main/layout.html'%}
+{% load static %}
+{%block title%}Success{%endblock%}
+{%block style%}<link rel="stylesheet" href="{% static 'css/style1.css'%}">{%endblock%}
+{%block body%}
+<br>
+<br>
+<br>
+
+<div class="container">
+    <div class="card">
+        <div class="circularBar" style="--clr:#1fff44;--num:{{points}};">
+            <div class="dot"></div>
+            <svg>
+                <circle cx="50%" cy="50%" r="49%"></circle>
+                <circle cx="50%" cy="50%" r="49%"></circle>
+            </svg>
+            <div class="number">
+                <h2>{{points}}<span>/50</span></h2>
+                <p>SCORE</p>
+            </div>
+        </div>
+    </div>
+    <a href="{% url 'ans' id%}"><button type="submit" class="try-again-button">See Answers</button></a>
+</div>
+
+{%endblock%}
